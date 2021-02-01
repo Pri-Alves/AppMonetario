@@ -28,11 +28,13 @@ Projeto para consulta de saldos bancários, cadastro de usuários e contas
 - Comandos:
 
 > npm install
->npm install -g json-server
+> 
+> npm install -g json-server
 
   
 - Terminais
 > 1º terminal json-server --watch db.json
+> 
 > 2º terminal npm start
 
   
@@ -40,4 +42,5 @@ Projeto para consulta de saldos bancários, cadastro de usuários e contas
 - Para login usar o email e senha abaixo.
 
 > email: maria@email.com
+> 
 > password: 123# AppMonetario
