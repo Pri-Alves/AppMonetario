@@ -1,0 +1,73 @@
+{
+  "usuarios": [
+    {
+      "nome": "Thiago",
+      "email": "thiago@email.com",
+      "senha": "123411256",
+      "cpf": "12345678901",
+      "id": 1
+    },
+    {
+      "nome": "Maria",
+      "email": "Maria@email.com",
+      "senha": "123",
+      "cpf": "1234522345901",
+      "id": 2
+    },
+    {
+      "nome": "Bruno",
+      "email": "bruno@email.com",
+      "senha": "123112456",
+      "cpf": "1234512333",
+      "id": 3
+    },
+    {
+      "nome": "Priscilla",
+      "email": "Priscilla@email.com",
+      "senha": "123112456",
+      "cpf": "1234512333",
+      "id": 4
+    },
+    {
+      "nome": "Amanda",
+      "email": "amanda@email.com",
+      "senha": "123453322",
+      "cpf": "1234123458901",
+      "id": 5
+    },
+    {
+      "nome": "Giovana",
+      "email": "giovana@email.com",
+      "senha": "123453322",
+      "cpf": "1234123458901",
+      "id": 6
+    }
+  ],
+  "contas": [
+    {
+      "saldo": 1000,
+      "idUsuario": 1,
+      "id": 1
+    },
+    {
+      "saldo": 5500,
+      "idUsuario": 1,
+      "id": 2
+    },
+    {
+      "saldo": 7500,
+      "idUsuario": 2,
+      "id": 1
+    },
+    {
+      "saldo": 300,
+      "idUsuario": 2,
+      "id": 2
+    },
+    {
+      "saldo": 1500,
+      "idUsuario": 2,
+      "id": 3
+    }
+  ]
+}

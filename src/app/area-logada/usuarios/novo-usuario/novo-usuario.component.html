@@ -1,0 +1,29 @@
+<div class='container pt-5'>
+
+    <form [formGroup]='contatoForm'>
+        <div class='form-group'>
+            <label for='nome'>Nome</label>
+            <input type='text' class='form-control' id='nome' 
+            placeholder="Nome" formControlName='nome' 
+            [class.is-invalid]="exibeErro('nome')">
+        </div>
+
+        <div class='form-group'>
+            <label for='email'>Email</label>
+            <input type='email' class='form-control' id='email' 
+            placeholder="email" formControlName='email' 
+            [class.is-invalid]="exibeErro('email')">
+        </div>
+        
+
+        <div class='form-group'>
+            <label for="banco">Senha</label>
+            <input type='text' class='form-control' id='banco' 
+            placeholder="Banco" formControlName='banco'
+            [class.is-invalid]="exibeErro('banco')">
+        </div>
+
+        <button (click)='salvarContato()'>Salvar</button>
+    </form>
+
+</div>

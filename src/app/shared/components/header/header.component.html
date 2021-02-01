@@ -1,0 +1,17 @@
+<header class='header'>
+    <h1 class='header__title'> {{titulo}} </h1>
+    <ul class="nav-bar-list">
+        <li>
+            <a routerLink="/home" routerLinkActive="ativado"> Home </a>
+        </li>
+        <li>
+            <a routerLink="/extrato" routerLinkActive="ativado" > Extrato </a>
+        </li>
+        <li>
+            <a routerLink="/usuarios" routerLinkActive="ativado" > Usuários </a>
+        </li>
+        <li>
+            <button class="btn btn-primary" (click)='logout()' >Logout</button>
+        </li>
+    </ul>
+</header>
